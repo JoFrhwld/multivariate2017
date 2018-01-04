@@ -3,7 +3,6 @@
 \docType{data}
 \name{iy_ah}
 \alias{iy_ah}
-\alias{iy_ah}
 \title{/i:/ and /ɑ/ data from the Philadelphia Neighborhood Corpus}
 \format{a data.frame with 17 columns
 \describe{
@@ -16,8 +15,8 @@
 \item{word}{word}
 \item{F1}{unnormalized F1}
 \item{F2}{unnormalized F1}
-\item{dur}{vowel duration}
-\item{plt_vclass}{modifed Labovian notation of vowel clas}
+\item{dur}{vowel duration in seconds}
+\item{plt_vclass}{modifed Labovian notation of vowel class. \code{iy} = /i:/ and \code{ah} = /ɑ/}
 \item{pre_seg}{preceding segment}
 \item{fol_seg}{following segment}
 \item{context}{location of vowel in word: coextensive, final, initial, internal}
@@ -27,17 +26,11 @@
 }}
 \source{
 Labov, W., Rosenfelder, I. (2011). The Philadelphia Neighborhood Corpus of LING560 Studies
-
-Labov, W., Rosenfelder, I. (2011). The Philadelphia Neighborhood Corpus of LING560 Studies
 }
 \usage{
 iy_ah
-
-iy_ah
 }
 \description{
-All /i:/ and /ɑ/ data from the PNC
-
 All /i:/ and /ɑ/ data from the PNC
 }
 \keyword{datasets}

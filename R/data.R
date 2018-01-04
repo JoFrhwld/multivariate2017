@@ -35,8 +35,8 @@
 #' \item{word}{word}
 #' \item{F1}{unnormalized F1}
 #' \item{F2}{unnormalized F1}
-#' \item{dur}{vowel duration}
-#' \item{plt_vclass}{modifed Labovian notation of vowel clas}
+#' \item{dur}{vowel duration in seconds}
+#' \item{plt_vclass}{modifed Labovian notation of vowel class. \code{iy} = /i:/ and \code{ah} = /ɑ/}
 #' \item{pre_seg}{preceding segment}
 #' \item{fol_seg}{following segment}
 #' \item{context}{location of vowel in word: coextensive, final, initial, internal}
@@ -51,34 +51,25 @@
 "iy_ah"
 
 
-#' @name iy_ah
-#' @title /i:/ and /ɑ/ data from the Philadelphia Neighborhood Corpus
-#' @description All /i:/ and /ɑ/ data from the PNC
-#' @format a data.frame with 17 columns
+#' @name iy_ah_wide
+#' @title /i:/ and /ɑ/ mean data from the Philadelphia Neighborhood Corpus
+#' @description mean /i:/ and /ɑ/ data from the PNC
+#' @format a data.frame with 8 columns
 #' \describe{
 #' \item{idstring}{unique id for each speaker}
 #' \item{age}{speakers' age}
 #' \item{sex}{speakers' sex}
 #' \item{year}{year of interview}
-#' \item{years_of_schooling}{speakers' years of schooling}
-#' \item{vowel}{arpabet vowel class}
-#' \item{word}{word}
-#' \item{F1}{unnormalized F1}
-#' \item{F2}{unnormalized F1}
-#' \item{dur}{vowel duration}
-#' \item{plt_vclass}{modifed Labovian notation of vowel clas}
-#' \item{pre_seg}{preceding segment}
-#' \item{fol_seg}{following segment}
-#' \item{context}{location of vowel in word: coextensive, final, initial, internal}
-#' \item{word_trans}{ARPABET transcription of the word}
-#' \item{F1_n}{normalized F1 (z-scored)}
-#' \item{F2_n}{normalized F2 (z-scored)}
+#' \item{ah_F1}{mean F1 of /ɑ/}
+#' \item{ah_F2}{mean F2 of /ɑ/}
+#' \item{iy_F1}{mean F1 of /i:/}
+#' \item{iy_F2}{mean F2 of /i:/}
 #' }
 #'
 #' @source Labov, W., Rosenfelder, I. (2011). The Philadelphia Neighborhood Corpus of LING560 Studies
 #'
 #'
-"iy_ah"
+"iy_ah_wide"
 
 
 
@@ -110,4 +101,10 @@
 #' @source Fruehwald, J. (2016). The early influence of phonology on a phonetic change. Language, 92(2), 376–410. https://doi.org/10.1353/lan.2016.0041
 #'
 #'
-"iy_ah"
+"ay"
+
+
+#' @name ah_model_boot
+#' @title Bootstrap Replicates of an LME
+#'
+"ah_model_boot"

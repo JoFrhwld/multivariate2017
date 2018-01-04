@@ -3,7 +3,6 @@
 \docType{data}
 \name{ay}
 \alias{ay}
-\alias{iy_ah}
 \title{/ay/ data from the Philadelphia Neighborhood Corpus}
 \format{a data.frame with 16 columns
 \describe{
@@ -31,7 +30,7 @@ Labov, W., Rosenfelder, I. (2011). The Philadelphia Neighborhood Corpus of LING5
 Fruehwald, J. (2016). The early influence of phonology on a phonetic change. Language, 92(2), 376–410. https://doi.org/10.1353/lan.2016.0041
 }
 \usage{
-iy_ah
+ay
 }
 \description{
 The /ay/ data used in Fruehwald (2016)
